@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --h2Color: #002B5B;
+    --iconColor: #F806CC;
+    --labelColor: #73777B;
+    --inputColor: #DFDFDE;
+}
+
+.reg {
+    display: none;
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(251, 112, 255);
+    background: linear-gradient(0deg, rgba(251, 112, 255, 1) 0%, rgba(210, 147, 251, 1) 53%, rgba(78, 204, 219, 1) 100%);
+}
+
+.loginPage {
+    width: 900px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.loginPage .page_img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.loginPage .login {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.loginPage .page_img img {
+    width: 100%;
+}
+
+.login h2 {
+    color: var(--h2Color);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.login .inp label {
+    color: var(--labelColor);
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 300;
+}
+
+.login .inp .inpdiv {
+    width: 250px;
+    height: 35px;
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 0.5px solid var(--h2Color);
+    background-color: var(--inputColor);
+}
+
+.login .inp input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.login .inp i {
+    color: var(--iconColor);
+    font-size: 20px;
+}
+
+.login button {
+    width: 250px;
+    height: 45px;
+    color: white;
+    background-color: var(--h2Color);
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.login a {
+    text-decoration: none;
+    color: var(--h2Color);
+}
+
+.log {
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+
+}
+
+.login_container {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+}
+
+.login_container .login_text {
+    width: 40%;
+    background-image: url('image/balon-arkadalar.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+
+.login_container .login_page1 {
+    width: 60%;
+    background-color: white;
+    height: 100%;
+}
+
+.login_container .login_text h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 30px 20px;
+}
+
+.login_container .login_text p {
+    color: white;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.login_container .login_page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.login_container .login_page1 .inp1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login_container .login_page1 h2 {
+    color: gray;
+    font-size: 18px;
+
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login_container .login_page1 label {
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+}
+
+.login_container .login_page1 input {
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: rgba(0, 191, 255, 0.122);
+}
+
+.login_container .login_page1 .btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_container .login_page1 a {
+    text-decoration: none;
+    color: gray;
+}
+
+.login_container .login_page1 button {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(241, 111, 37);
+}
+
+.blur {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: url('image/balon-arkadalar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px);
+}
+
+.page {
+    display: none;
+    background: rgb(251, 112, 255);
+    background: linear-gradient(0deg, rgba(251, 112, 255, 1) 0%, rgba(210, 147, 251, 1) 53%, rgba(78, 204, 219, 1) 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.page h1 {
+    font-size: 30px;
+    text-align: center;
+}

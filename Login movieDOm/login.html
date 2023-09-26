@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <header>
+      <div class="homePage">
+        <div class="logo">
+          <h2>MOVIE<span>DOM</span></h2>
+        </div>
+        <div class="btns">
+          <button id="go_login">Login</button>
+          <button id="go_register">Sign up</button>
+        </div>
+      </div>
+      <div class="loginContainer">
+        <h2>Login</h2>
+
+        <div class="form">
+          <div class="inp">
+            <label for="log_email">Email</label>
+            <input
+              type="email"
+              id="log_email"
+              placeholder="sitiago@gmail.com"
+            />
+            <p id="log_email_error"></p>
+          </div>
+
+          <div class="inp">
+            <label for="log_pass">Password</label>
+            <input type="password" id="log_pass" placeholder="............" />
+            <p id="log_pass_error"></p>
+          </div>
+          <p id="log_error"></p>
+          <a href="#">Forgot password</a>
+        </div>
+
+        <button id="login_btn">Login</button>
+      </div>
+      <div class="resgisterContainer">
+        <h2>SIGN UP</h2>
+        <div class="form">
+          <div class="inp">
+            <label for="reg_name">Name</label>
+            <input type="text" id="reg_name" placeholder="sitiago@gmail.com" />
+
+          </div>
+          <div class="inp">
+            <label for="reg_email">Email</label>
+            <input
+              type="email"
+              id="reg_email"
+              placeholder="sitiago@gmail.com"
+            />
+          </div>
+
+          <div class="inp">
+            <label for="reg_pass">Password</label>
+            <input type="password" id="reg_pass" placeholder="............" />
+          </div>
+
+          <div class="inp">
+            <label for="log_r_pass">Re-type Password</label>
+            <input type="password" id="log_r_pass" placeholder="............" />
+          </div>
+          <p id="reg_error"></p>
+        </div>
+        <button id="reg_btn">Sign up</button>
+      </div>
+    </header>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>

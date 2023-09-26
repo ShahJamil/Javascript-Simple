@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background-color: black;
+}
+
+.homePage,
+.loginContainer,
+.resgisterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+.homePage h2 {
+    color: #C00511;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.homePage h2 span {
+    color: white;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+button {
+    width: 255px;
+    height: 40px;
+    background: #C00511;
+    border: 2px solid #C00511;
+    border-radius: 90px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btns button:nth-child(1) {
+    background: rgba(217, 217, 217, 0.16);
+    border: 1px solid #FFFFFF;
+    border-radius: 90px;
+    color: #C00511;
+}
+
+
+.loginContainer button {
+    background: rgba(217, 217, 217, 0.16);
+    border: 1px solid #FFFFFF;
+    border-radius: 90px;
+    color: #C00511;
+}
+
+.loginContainer h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inp input {
+    border: none;
+    background: none;
+    outline: none;
+    padding-bottom: 8px;
+    width: 330px;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.61);
+    color: white;
+}
+
+.inp label {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.form a {
+    color: #8B8B8B;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.loginContainer {
+    display: none;
+}
+.resgisterContainer{
+    display: none;
+}
+
+.resgisterContainer h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+}
